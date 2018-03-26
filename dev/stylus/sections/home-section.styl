@@ -1,0 +1,63 @@
+.home-section
+  padding 220px 0
+  background-position center center
+  background-repeat no-repeat
+  background-size cover
+
+.home-content
+  width 60%
+  text-align center
+  &__question
+    font-size rem(18)
+    line-height 1.2
+    color blackColor
+  &__title
+    font-size rem(54)
+    line-height 1.2
+    letter-spacing 7px
+    color blackColor
+  &__subtitle
+    margin-bottom 50px
+    padding 14px 12px
+    font-size rem(18.23)
+    background-color blackColor
+    border-radius 3px
+    color whiteColor
+    span
+      font-family titleFont
+      &> span
+        color mainColor
+  &__scroll-down
+    font-size 60px
+    color mainColor
+.home-text-motivation
+  position relative
+  margin-bottom 50px
+  text-align center
+  &:before,
+  &:after
+    position absolute
+    content ''
+    display block
+    width 20%
+    height 6px
+    top 50%
+    transform translateY(-50%)
+    border-top 1px solid whiteColor
+    border-bottom 1px solid whiteColor
+  &:before
+    left 0
+  &:after
+    right 0
+  &__text
+    display flex
+    align-items center
+    justify-content center
+    font-family titleFont
+    font-size rem(26)
+    color blackColor
+    span
+      color mainColor
+    i
+      font-size 15px
+      margin 0 15px
