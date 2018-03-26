@@ -1,0 +1,32 @@
+.site-navigation
+  width 100%
+  padding 30px 0
+  background-color #f9f9f9
+  border-bottom 2px solid #dedede
+  transition all 1s ease
+  .container
+    display flex
+    align-items center
+    justify-content space-between
+
+.main-navigation
+  text-align right
+  &__item
+    display inline-block
+    margin-left 30px
+    padding 15px
+    border-radius 3px
+    transition background-color 0.5s ease
+    &:first-child
+      margin-left 0
+    &:hover
+      background-color mainColor
+      .main-navigation__link
+        text-decoration none
+        color whiteColor
+  &__link
+    font-family titleFont
+    font-size rem(13)
+    line-height 20px
+    color #606060
+    transition color 0.5s ease
